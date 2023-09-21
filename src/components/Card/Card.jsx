@@ -50,11 +50,7 @@ const Card = () => {
 		<>
 			<div className='card'>
 				<figure className='card__img img__container'>
-					<img
-						className='img'
-						src='/images/drawers.jpg'
-						alt='drawers'
-					/>
+					<img className='img' src='/images/drawers.jpg' alt='drawers' />
 				</figure>
 				<article className='card__body'>
 					<SectionText />
