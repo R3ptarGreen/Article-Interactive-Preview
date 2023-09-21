@@ -1,0 +1,14 @@
+@import '/src/reset/mixins';
+@import '/src/reset/variables';
+.text {
+	&__title {
+		color: var(--veryDarkGrayishBlue);
+		font-size: 0.85rem;
+		font-weight: 700;
+		cursor: default;
+	}
+	&__content {
+		color: var(--grayishBlue);
+		cursor: default;
+	}
+}

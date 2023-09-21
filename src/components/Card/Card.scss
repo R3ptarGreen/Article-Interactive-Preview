@@ -1,0 +1,80 @@
+@import '/src/reset/mixins';
+@import '/src/reset/reset';
+@import '/src/reset/variables';
+.card {
+	background-color: white;
+	width: 60%;
+	margin: auto;
+	@include flex(column, 0, none, center);
+	border-radius: 1rem;
+	position: relative;
+	box-shadow: 10px 10px 19px 0px hsla(217, 19%, 35%, 0.175);
+	&__img {
+		@include flex(row, 0, center, center);
+		height: 100%;
+		width: 100%;
+		border-radius: 1rem 1rem 0 0;
+		overflow: hidden;
+		.img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+	&__body {
+		padding-top: 2rem;
+	}
+	.text {
+		padding: 0 2rem;
+		@include flex(column, 1rem, none, none);
+		margin-bottom: 1rem;
+	}
+	.profile {
+		padding: 1rem 2rem;
+		@include flex(row, 0, space-between, center);
+	}
+	.actions {
+		padding: 1rem 2rem;
+		@include flex(row, 0, space-between, center);
+		background-color: var(--veryDarkGrayishBlue);
+		color: white;
+		border-radius: 0 0 1rem 1rem;
+		overflow: hidden;
+	}
+	.tooltips {
+		padding: 1rem 2rem;
+		@include flex(row, 0, space-between, center);
+		background-color: white;
+		color: white;
+		border-radius: 0 0 1rem;
+		overflow: hidden;
+	}
+	.disable {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 855px) {
+	.card {
+		min-height: 17rem;
+		@include flex(row, 0, none, center);
+		&__img {
+			max-width: 35%;
+			min-height: 17rem;
+			border-radius: 1rem 0 0 1rem;
+			.img {
+				height: 17rem;
+			}
+		}
+		&__body {
+			height: 17rem;
+			@include flex(column, 0, none, space-between);
+		}
+		.title {
+			font-size: 1.125rem;
+		}
+		.actions {
+			border-radius: 0 0 1rem 0;
+		}
+	}
+}

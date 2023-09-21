@@ -1,0 +1,44 @@
+@import '/src/reset/mixins';
+
+.tooltips {
+	&__container {
+		@include flex(row, 1rem, none, center);
+	}
+	.tooltip__box {
+		z-index: 1;
+		right: 0;
+		bottom: 5rem;
+		background-color: var(--veryDarkGrayishBlue);
+		padding: 1rem 2rem;
+		border-radius: 0.5rem;
+		position: absolute;
+		bottom: 20%;
+		transform: translate(30%, -50%);
+	}
+	.tooltip__box::after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 75%);
+		border-style: solid;
+		border-width: 1.5rem 1.5rem 0 1.5rem;
+		border-color: var(--veryDarkGrayishBlue) transparent transparent transparent;
+	}
+	&__span {
+		font-size: 1rem;
+	}
+	&__share {
+		border-radius: 100%;
+		color: var(--lightGrayishBlue);
+		width: 2rem;
+		height: 2rem;
+		background-color: var(--desaturatedDarkBlue);
+		cursor: pointer;
+	}
+	.icon--pointer {
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,7 @@
+@import './reset/_reset';
+@import './reset/_mixins';
+
+main {
+	@include flex(column, 0, center, center);
+	min-height: 100vh;
+}

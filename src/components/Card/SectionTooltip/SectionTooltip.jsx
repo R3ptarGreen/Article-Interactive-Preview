@@ -1,7 +1,7 @@
 //propTypes
 import PropTypes from 'prop-types';
 //style
-import './SectionToolTip.scss';
+import './SectionTooltip.scss';
 //icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShare } from '@fortawesome/free-solid-svg-icons';

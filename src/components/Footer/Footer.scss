@@ -1,0 +1,16 @@
+@import '/src/reset/variables';
+.footer {
+	&__attribution {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		color: var(--veryDarkGrayishBlue);
+		text-align: center;
+		margin-bottom: 1rem;
+		font-weight: 700;
+		font-size: 0.8rem;
+	}
+	&__underline:hover {
+		text-decoration: underline;
+	}
+}

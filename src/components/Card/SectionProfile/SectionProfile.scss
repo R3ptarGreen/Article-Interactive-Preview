@@ -1,0 +1,20 @@
+@import '/src/reset/mixins';
+@import '/src/reset/variables';
+
+.profile {
+	&__container {
+		@include flex(row, 1rem, none, center);
+	}
+	&__img {
+		border-radius: 100%;
+		width: 2.5rem;
+	}
+	&__share {
+		border-radius: 100%;
+		background-color: var(--lightGrayishBlue);
+		width: 2rem;
+		height: 2rem;
+		color: var(--desaturatedDarkBlue);
+		cursor: pointer;
+	}
+}
