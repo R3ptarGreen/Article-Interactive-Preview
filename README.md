@@ -34,7 +34,7 @@ React practice with a Interactive Article Preview; the design was promoted on th
 
 ### Links
 
-- Live Site URL: [INTERACTIVE - ARTICLE PREVIEW](https://deluxe-conkies-2eacad.netlify.app/)
+- Live Site URL: [INTERACTIVE - ARTICLE PREVIEW](https://glistening-salamander-8843f6.netlify.app/)
 
 ### Contribution
 
