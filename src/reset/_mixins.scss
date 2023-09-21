@@ -1,0 +1,16 @@
+@mixin flex($rc, $g, $jc, $ai) {
+	display: flex;
+	flex-direction: $rc;
+	gap: $g;
+	@if $rc == 'row' {
+		justify-content: $jc;
+		align-items: $ai;
+	} @else {
+		justify-content: $ai;
+		align-items: $jc;
+	}
+}
+
+@mixin border() {
+	border: 1px solid black;
+}
