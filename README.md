@@ -1,6 +1,6 @@
 # Project: Online Learning Platform
 
-<img src="/src/assets/images/EM-2.png" alt="Logo" width="100">
+<img src="./public/images/EM-2.png/" alt="Logo" width="100">
 
 ## Project Description
 
