@@ -9,7 +9,7 @@ React practice with a Interactive Article Preview; the design was promoted on th
 ## Table of Contents
 
 - [Overview](#overview)
-  - [The Challenge](#the-challenge)
+  - [The Challenge](#the-challenge) 
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Contribution](#contribution)
