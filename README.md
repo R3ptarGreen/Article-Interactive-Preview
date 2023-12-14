@@ -5,7 +5,7 @@
 ## Project Description
 
 React practice with a Interactive Article Preview; the design was promoted on the Frontend Mentor platform.
-
+ 
 ## Table of Contents
 
 - [Overview](#overview)
